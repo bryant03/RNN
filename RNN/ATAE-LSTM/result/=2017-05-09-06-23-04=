@@ -1,0 +1,102 @@
+word_id_file data/restaurant/word_id_new.txt
+
+load word-id mapping done!
+
+w2v shape (4453, 300)
+word_dict shape ()
+4452 4453
+len w2v: 4453
+len word_dict: 4452
+4553 4554
+1219 1220
+shape aspect2id:  1219
+test
+relu
+load word-to-id done!
+load aspect-to-id done!
+cnt= 3608
+Counter({b'1': 2164, b'-1': 807, b'0': 637})
+load word-to-id done!
+load aspect-to-id done!
+cnt= 769
+Counter({b'1': 728, b'-1': 196, b'0': 196})
+Iter 0: train  acc=0.661585
+all samples=1120, correct prediction=821.0
+Iter 0: mini-batch loss=0.287018, test acc=0.733036
+Iter 1: train  acc=0.800443
+all samples=1120, correct prediction=837.0
+Iter 1: mini-batch loss=0.264144, test acc=0.747321
+Iter 2: train  acc=0.868071
+all samples=1120, correct prediction=822.0
+Iter 2: mini-batch loss=0.284568, test acc=0.733929
+Iter 3: train  acc=0.899113
+all samples=1120, correct prediction=851.0
+Iter 3: mini-batch loss=0.322255, test acc=0.759821
+Iter 4: train  acc=0.924889
+all samples=1120, correct prediction=835.0
+Iter 4: mini-batch loss=0.346215, test acc=0.745536
+Iter 5: train  acc=0.932927
+all samples=1120, correct prediction=822.0
+Iter 5: mini-batch loss=0.365862, test acc=0.733929
+Iter 6: train  acc=0.945399
+all samples=1120, correct prediction=824.0
+Iter 6: mini-batch loss=0.320791, test acc=0.735714
+Iter 7: train  acc=0.953437
+all samples=1120, correct prediction=806.0
+Iter 7: mini-batch loss=0.384189, test acc=0.719643
+Iter 8: train  acc=0.962029
+all samples=1120, correct prediction=831.0
+Iter 8: mini-batch loss=0.352446, test acc=0.741964
+Iter 9: train  acc=0.965632
+all samples=1120, correct prediction=828.0
+Iter 9: mini-batch loss=0.349686, test acc=0.739286
+Iter 10: train  acc=0.964800
+all samples=1120, correct prediction=833.0
+Iter 10: mini-batch loss=0.471345, test acc=0.743750
+Iter 11: train  acc=0.969235
+all samples=1120, correct prediction=817.0
+Iter 11: mini-batch loss=0.397696, test acc=0.729464
+Iter 12: train  acc=0.971729
+all samples=1120, correct prediction=802.0
+Iter 12: mini-batch loss=0.446031, test acc=0.716071
+Iter 13: train  acc=0.972007
+all samples=1120, correct prediction=820.0
+Iter 13: mini-batch loss=0.366350, test acc=0.732143
+Iter 14: train  acc=0.978659
+all samples=1120, correct prediction=801.0
+Iter 14: mini-batch loss=0.423209, test acc=0.715179
+Iter 15: train  acc=0.980876
+all samples=1120, correct prediction=793.0
+Iter 15: mini-batch loss=0.470145, test acc=0.708036
+Iter 16: train  acc=0.973392
+all samples=1120, correct prediction=816.0
+Iter 16: mini-batch loss=0.458294, test acc=0.728571
+Iter 17: train  acc=0.976718
+all samples=1120, correct prediction=796.0
+Iter 17: mini-batch loss=0.452500, test acc=0.710714
+Iter 18: train  acc=0.980876
+all samples=1120, correct prediction=808.0
+Iter 18: mini-batch loss=0.438580, test acc=0.721429
+Iter 19: train  acc=0.980599
+all samples=1120, correct prediction=814.0
+Iter 19: mini-batch loss=0.463076, test acc=0.726786
+Iter 20: train  acc=0.979490
+all samples=1120, correct prediction=802.0
+Iter 20: mini-batch loss=0.469596, test acc=0.716071
+Iter 21: train  acc=0.974501
+all samples=1120, correct prediction=790.0
+Iter 21: mini-batch loss=0.449028, test acc=0.705357
+Iter 22: train  acc=0.980599
+all samples=1120, correct prediction=784.0
+Iter 22: mini-batch loss=0.438967, test acc=0.700000
+Iter 23: train  acc=0.983647
+all samples=1120, correct prediction=801.0
+Iter 23: mini-batch loss=0.548164, test acc=0.715179
+Iter 24: train  acc=0.978104
+all samples=1120, correct prediction=785.0
+Iter 24: mini-batch loss=0.519307, test acc=0.700893
+P: [ 0.81294964  0.60869565  0.59493671]
+R: [ 0.93131868  0.64285714  0.23979592]
+F: [ 0.8681178   0.62531017  0.34181818]
+Optimization Finished! Max acc=0.7598214285714285
+keep_prob1=1.0,keep_prob2=1.0,Learning_rate=0.01, iter_num=25, batch_size=25, hidden_num=300, l2=0.007
